@@ -13,31 +13,35 @@ body {
 .container {
     padding-left: 16.5%;
     padding-right: 16.5%;
-
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
     .header {
         text-align: center;
         font-size: 80px;
         padding: 20px;
-        /* padding-bottom: 30px; */
+        padding-bottom: 30px;
     }
 
-    .topNav {
+    .info {
         float: left;
-        display: block;
+        width: 25%;
         text-align: center;
-        padding: 14px;
+        padding-left: 5%;
+        font-size: 125%;
+        font-weight: bold;
+        color: navy;
     }
 
+    /* 
     .topNav:hover {
         background-color: white;
-    }
+    } */
 
     .image-cropper {
         width: 100%;
         height: 100%;
-        display: flex;
-        justify-content: center;
+        display: inline;
+        justify-content: left;
         align-items: left;
         
         content: "";
@@ -54,12 +58,13 @@ body {
     }
 
     .description {
-        float: left;
+        float: right;
         width: 60%;
         padding: 25px;
         padding-top: 75px;
-        font-size: 25px;
+        font-size: 162.5%;
     }
+
 
 
     .column {
@@ -79,12 +84,40 @@ body {
         }
     }
 
+    .columnHeader {
+        text-align: center;
+        font-size: 325%;
+        padding: 20px;
+        padding-bottom: 30px;
+    }
+
+    .columnSubtitle {
+        font-weight: bold;
+        text-align: center;
+        font-size: 162.5%;
+        width: 80%;
+        padding-left: 10%;
+        padding-right: 10%;
+        
+    }
+    .columnDescription {
+        text-align: center;
+        font-size: 125%;
+        width: 80%;
+        padding-left: 10%;
+        padding-right: 10%;
+        
+    }
+
+
+    .footer {
+        float: right;
+        text-align: right;
+        width:100%;
+        font-size: 110%;
+        padding-top: 5%;
+        padding-right: 5%;
+        color: navy;
+    }
     
 }
-/*div {
-    width: 50%;
-    height: 2px;
-    border: 15px solid green;
-    padding:10%;
-    margin:20px;
-}*/
